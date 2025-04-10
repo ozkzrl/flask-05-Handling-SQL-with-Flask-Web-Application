@@ -115,5 +115,5 @@ def add_email():
 
 # Run app
 if __name__ == '__main__':
-    app.run(debug=True)
-    # app.run(host='0.0.0.0', port=80)  # Production için
+    #app.run(debug=True)
+    app.run(host='0.0.0.0', port=80)  # Production için
